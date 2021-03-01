@@ -50,9 +50,6 @@ int main()
         }
     }
 
-//    printf("QUEUE_GET_ALL_PEEKED\n");
-//    QUEUE_GET_ALL_PEEKED(byte, &Q);
-
     printf("out all\n");
     for (uint8_t i = 0; i < 8; i++) {
         if (QUEUE_OUT(byte, &Q, &out)) {
